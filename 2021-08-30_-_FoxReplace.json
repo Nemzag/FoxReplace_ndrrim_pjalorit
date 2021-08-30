@@ -10296,9 +10296,27 @@
       "urls": [],
       "substitutions": [
         {
-          "input": "por",
+          "input": "aritur",
+          "inputType": "wholewords",
+          "output": "aritë‑në",
+          "caseSensitive": false
+        },
+        {
+          "input": "edhe",
+          "inputType": "wholewords",
+          "output": "e‑dhê",
+          "caseSensitive": false
+        },
+        {
+          "input": "fare",
+          "inputType": "wholewords",
+          "output": "färê",
+          "caseSensitive": false
+        },
+        {
+          "input": "mbetet ",
           "inputType": "text",
-          "output": "amẫ",
+          "output": "metë‑të ",
           "caseSensitive": false
         },
         {
@@ -10308,9 +10326,63 @@
           "caseSensitive": false
         },
         {
+          "input": "nga",
+          "inputType": "wholewords",
+          "output": "qa",
+          "caseSensitive": false
+        },
+        {
+          "input": "për",
+          "inputType": "wholewords",
+          "output": "pör",
+          "caseSensitive": false
+        },
+        {
+          "input": "por",
+          "inputType": "wholewords",
+          "output": "amẫ",
+          "caseSensitive": false
+        },
+        {
+          "input": "rrejshëm",
+          "inputType": "text",
+          "output": "rrễj‑shëm",
+          "caseSensitive": false
+        },
+        {
           "input": "shpesh",
           "inputType": "text",
           "output": "shpêsh",
+          "caseSensitive": false
+        },
+        {
+          "input": "tyre",
+          "inputType": "wholewords",
+          "output": "tynê",
+          "caseSensitive": false
+        },
+        {
+          "input": "vendase",
+          "inputType": "wholewords",
+          "output": "vênasê",
+          "caseSensitive": false
+        },
+        {
+          "input": "vetëvendosjes",
+          "inputType": "regexp",
+          "output": "vêtë‑vêndôsjes",
+          "caseSensitive": true
+        },
+        {
+          "input": "zgjedh",
+          "inputType": "text",
+          "output": "zgedh",
+          "caseSensitive": false
+        },
+        {
+          "input": "[.]*uar",
+          "inputType": "regexp",
+          "output": "u",
           "caseSensitive": false
         }
       ],
